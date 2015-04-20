@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	padding:0px;
+	margin:0px;
+}
+
+#page
+{
+	width:1000px;
+	height:700px;
+	margin:auto;
+	background-color:#9CF;
+}
+
+/****Sign up****/
+
+#signUp-container
+{
+	width:100%;
+	height:40px;
+	background-color:#FF9;
+}
+
+.signIn-signUp
+{
+	width:100px;
+	height:100%;
+	float:left;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	line-height:40px;
+	text-align:center;
+	background-color:#996;
+}
+
+.signIn-signUp a
+{
+	text-decoration:none;
+	color:#000;
+}
+
+.signIn-signUp a:hover
+{
+	text-decoration:underline;
+}
+
+
+#signUp-space
+{
+	width:800px;
+	height:100%;
+	float:left;
+	background-color:#0F3;
+}
+
+/****Sign up****/
+
+
+
+
+/****Start of header****/
+
+#header-container
+{
+	width:100%;
+	/*height:160px;*/
+	height:108px;
+	background-color:#96F;
+}
+
+#logo-container
+{
+	width:400px;
+	height:100%;
+	float:left;
+	background-color:#636;
+}
+
+#search-menu-container
+{
+	width:600px;
+	height:100%;
+	float:left;
+	/*background-color:#F30;*/
+}
+
+#search
+{
+	width:100%;
+	margin:15 0 15 0;
+	/*background-color:#0FF;*/
+}
+
+#searchBox
+{
+	width:240px;
+	height:35px;
+	padding:0px;
+	margin:0 0 0 270;
+}
+
+#searchSubmit
+{
+	width:80px;
+	height:38px;
+	padding:0px;
+	margin:0px;
+	font-size:14px;
+}
+
+#menu-container
+{
+	width:100%;
+	height:40px;
+	/*background-color:#6F3;*/
+}
+
+#menu
+{
+	width:500px;
+	height:100%;
+	margin:0 0 0 95;
+	/*background-color:#0F0;*/
+}
+
+.menuCells
+{
+	width:100px;
+	height:100%;
+	float:left;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:17px;
+	font-weight:normal;
+	line-height:40px;
+	text-align:right;
+	/*background-color:#03F;*/
+}
+
+.menuCells a
+{
+	text-decoration:none;
+	color:#FFF;
+}
+
+.menuCells a:hover
+{
+	text-decoration:underline;
+}
+
+/****End of header****/
