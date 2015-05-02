@@ -283,7 +283,7 @@ li
 #post-container
 {
 	width:100%;
-	height:350px;
+	height:400px;
 	background-color:#3F0;
 }
 
@@ -295,7 +295,7 @@ li
 #post-box
 {
 	width:950px;
-	height:200px;
+	height:340px;
 	margin:auto;
 	border:1px solid #000;
 	background-color:#0F6;
@@ -307,6 +307,36 @@ li
 	height:30px;
 	font-size:16px;
 	font-style:italic;
+}
+
+#comment
+{
+	margin-left:15px;
+}
+
+#postBtn
+{
+	width:200px;
+	height:40px;
+	border:1px hidden;
+	border-radius:5px;
+	background-color:rgba(51, 51, 255, 0.6);
+	/*opacity:0.4;*/
+	filter:Alpha(opacity=40);
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#FFF;
+	margin-left:15px;
+}
+
+#postBtn:hover
+{
+	background-color:#906;
+}
+
+#postValue
+{
+	margin:0px;
 }
 
 /****End of discussion area****/

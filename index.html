@@ -108,26 +108,39 @@
         
         	<h3>Ask a question from online community : </h3>
             
-            
+            <!--Start of post box-->
             <div id="post-box">
             
-				<p>Title : <br /> <input type="text" id="title" name="title" value="Add title of your question here"  /></p>
-                <p>
-                	Technology or Language : <br /> 
-                    <select>
-                    	<option>Please select technology</option>
-                        <option>Java</option>
-                        <option>C++</option>
-                        <option>Ruby on Rails</option>
-                        
-                    </select>
-                </p>
+            	<form method="post" action="">
+            
+                    <p>Title : <br /> <input type="text" id="title" name="title" value="Add title of your question here"  /></p>
+                    <p>
+                        Technology or Language : <br /> 
+                        <select>
+                            <option>Please select technology</option>
+                            <option>Java</option>
+                            <option>C++</option>
+                            <option>Ruby on Rails</option>
+                            
+                        </select>
+                    </p>
+                    
+                    <p id="postValue">Post : </p>
+                    
+                    <textarea name="comment" id="comment" rows="8" cols="125" >
+                    </textarea>
+                    <br />
+                    
+                    <input type="hidden" id="postId" name="postId" value=""  />
+                    
+                    <input type="submit" id="postBtn" value="Submit new discussion" />
+                    
                 
-                
-                
+                </form>
                 
             
             </div>
+            <!--End of post box-->
         
         </div>
         <!--End of discussion area-->
