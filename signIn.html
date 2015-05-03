@@ -2,8 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>home page</title>
+<title>sign in page</title>
 <link href="techHelpersStyles.css" media="all" rel="stylesheet" type="text/css"  />
+
 </head>
 
 <body>
@@ -65,83 +66,30 @@
         </div>
     	<!--End of header-->
         
-        <!--Start of main-body-container-->
-        <div id="body-container">
+        <!--Start of signUpBox-->
+        <div id="signInBox">
         	
-            <!--Start of main-body-->
-            <div id="main-body">
-            	<h1>Welcome to techHelpers.com</h1>
-                <h3>Where you "Learn from the best"</h3>
-                
-                <p>
-                	Tech helpers is the online community which help students at University level by solving their issues in different technologies which they face during developement. Students can submit their code along their queries which will be checked by tech helpers to solve their issue. Website is divided into different sections like forum section where anyone can post their queires, project ideas section where one can share project ideas, code or documentation upload section and so.
-                </p>
-                
-                <p>
-                	We will also provide good tutorials link time to time to broad the circle of learning. You can also use this website for storing your code and documentation by uploading it to our server. We provide 1GB space for our registered users. You can sign up on this site simply by giving your email address and password. 
-                </p>
-                
-            </div>
-            <!--End of main-body-->
-                        
-            <!--Start of right navigation-->
-            <div id="right-navigation">
-            	<h3>Useful links</h3>
-                
-                <ul>
-                	<li><a href="#">Php tutorial</a></li>
-                    <li><a href="#">Ruby on Rail</a></li>
-                    <li><a href="#">Html, CSS</a></li>
-                    <li><a href="#">Java basics</a></li>
-                    <li><a href="#">Android Development</a></li>
-                    <li><a href="#">Javascript</a></li>
-                </ul>
-                
-            </div>
-			<!--End of right navigation-->
+			<h2>Sign In to get help from tech helpers !</h2>
+            
+            <form id="signInFrm">
+            
+            	<fieldset>
+                	<legend>Sign In </legend>
+                    
+                    Username : <br /><input type="text" class="textInput" name="username" /><br />
+                    Password :<br /><input type="password" class="textInput" name="password"  /><br />
+                    <!--Email : <br /><input type="text" class="textInput" name="email"  /><br />-->
+                    
+                    <input type="submit" id="signInBtn" value="Sign In" />
+                    
+                </fieldset>
+            
+            </form>
+            
             
         </div>
-        <!--End of main-body-container-->
+        <!--End of signUpBox-->
         
-        <!--Start of discussion area-->
-        <div id="post-container">
-        
-        	<h3>Ask a question from online community : </h3>
-            
-            <!--Start of post box-->
-            <div id="post-box">
-            
-            	<form method="post" action="">
-            
-                    <p>Title : <br /> <input type="text" id="title" name="title" value="Add title of your question here"  /></p>
-                    <p>
-                        Technology or Language : <br /> 
-                        <select>
-                            <option>Please select technology</option>
-                            <option>Java</option>
-                            <option>C++</option>
-                            <option>Ruby on Rails</option>
-                            
-                        </select>
-                    </p>
-                    
-                    <p id="postValue">Post : </p>
-                    
-                    <textarea name="comment" id="comment" rows="8" cols="125" >
-                    </textarea>
-                    <br />
-                    
-                    <input type="hidden" id="postId" name="postId" value=""  />
-                    
-                    <input type="submit" id="postBtn" value="Submit new discussion" />
-                
-                </form>
-          
-            </div>
-            <!--End of post box-->
-        
-        </div>
-        <!--End of discussion area-->
         
        	<!--Start of footer-->
         <div id="footer-container">

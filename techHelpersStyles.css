@@ -21,7 +21,7 @@ li
 #page
 {
 	width:1000px;
-	height:700px;
+	/*height:700px;*/
 	margin:auto;
 	background-color:#9CF;
 }
@@ -108,9 +108,11 @@ li
 
 #searchBox
 {
-	width:240px;
+	width:235px;
 	height:35px;
-	padding:0px;
+	font-size:14px;
+	/*padding:0px;*/
+	padding-left:5px;
 	margin:0px 0px 0px 270px;
 }
 
@@ -136,9 +138,9 @@ li
 	height:100%;
 	/*margin:0 0 0 95;*/
 	/*margin:0px 0px 0px 265px;*/
-	margin:0px 0px 0px 215px;
-	
+	margin:0px 0px 0px 205px;
 	text-align:right;
+	
 	background-color:#0F0;
 }
 
@@ -172,7 +174,7 @@ li
 	text-decoration:underline;
 }
 
-
+/*
 .menuCells
 {
 	width:100px;
@@ -183,7 +185,7 @@ li
 	font-weight:normal;
 	line-height:40px;
 	text-align:right;
-	/*background-color:#03F;*/
+	background-color:#03F;
 }
 
 .menuCells a
@@ -196,8 +198,10 @@ li
 {
 	text-decoration:underline;
 }
+*/
 
 /****End of header****/
+
 
 /****Start of main-body****/
 
@@ -233,8 +237,6 @@ li
 {
 	padding:0px 15px 0px 15px;
 }
-
-
 
 #right-navigation
 {
@@ -359,7 +361,7 @@ li
 
 #bottomMenu-container
 {
-	width:350px;
+	width:360px;
 	height:100%;
 	margin:auto;
 	background-color:#0F0;
@@ -465,3 +467,166 @@ li
 /****End of footer****/
 
 
+/***************************************		SIGNUP PAGE		***************************************/
+
+#signUpBox
+{
+	width:100%;
+	height:400px;
+	margin-top:10px;
+	background-color:#F00;
+}
+
+#signUpBox h2
+{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#0CF;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin:0px;
+}
+
+#signUpFrm
+{
+	/*padding:15px;*/
+	margin-top:15px;
+	background-color:#CCF;
+}
+
+#signUpFrm fieldset
+{
+	width:400px;
+	height:290px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	padding:15px;
+	margin-left:40px;
+}
+
+.textInput
+{
+	width:300px;
+	height:30px;
+	border:1px solid #999;
+	padding-left:5px;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size:20px;
+	background-color:rgb(204, 255, 255);
+}
+
+.textInput:hover
+{
+	background-color:rgb(255, 204, 102);
+}
+
+#signUpBtn
+{
+	width:150px;
+	height:40px;
+	border:1px hidden;
+	border-radius:5px;
+	background-color:rgba(51, 51, 255, 0.6);
+	/*opacity:0.4;
+	filter:Alpha(opacity=40);*/
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#FFF;
+	margin-top:5px;
+}
+
+#signUpBtn:hover
+{
+	background-color:#906;
+}
+
+/***************************************		SIGNUP PAGE		***************************************/
+
+
+#signInBox
+{
+	width:100%;
+	height:350px;
+	margin-top:10px;
+	background-color:#F00;
+}
+
+#signInBox h2
+{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#0CF;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin:0px;
+}
+
+#signInFrm
+{
+	/*padding:15px;*/
+	margin-top:20px;
+	background-color:#CCF;
+}
+
+#signInFrm fieldset
+{
+	width:400px;
+	height:220px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	padding:15px;
+	margin-left:40px;
+}
+
+/*text input styles will be used from sign up page styles*/
+/*
+.textInput
+{
+	width:300px;
+	height:30px;
+	border:1px solid #999;
+	padding-left:5px;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size:20px;
+	background-color:rgb(204, 255, 255);
+}
+
+.textInput:hover
+{
+	background-color:rgb(255, 204, 102);
+}
+*/
+
+#signInBtn
+{
+	width:100px;
+	height:40px;
+	border:1px hidden;
+	border-radius:5px;
+	background-color:rgba(51, 51, 255, 0.6);
+	/*opacity:0.4;
+	filter:Alpha(opacity=40);*/
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#FFF;
+	margin-top:5px;
+}
+
+#signInBtn:hover
+{
+	background-color:#906;
+}
+
+
+
+
+
+
+/***************************************		SIGNIN PAGE		***************************************/
+
+
+
+
+
+
+/***************************************		SIGNIN PAGE		***************************************/
