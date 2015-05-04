@@ -285,7 +285,7 @@ li
 #post-container
 {
 	width:100%;
-	height:390px;
+	height:500px;
 	background-color:#3F0;
 }
 
@@ -296,10 +296,14 @@ li
 
 #post-box
 {
-	width:950px;
-	height:340px;
+	/*width:950px;*/
+	width:915px;
+	/*height:350px;*/
+	height:380px;
+	padding:25px;
 	margin:auto;
 	border:1px solid #000;
+	border-radius:5px;
 	background-color:#0F6;
 }
 
@@ -309,11 +313,23 @@ li
 	height:30px;
 	font-size:16px;
 	font-style:italic;
+	padding-left:10px;
+	padding-right:10px;
+	margin-top:10px;
 }
 
 #comment
 {
-	margin-left:15px;
+	/*margin-left:15px;*/
+	padding:5px;
+	margin-top:10px;
+	display:block;
+}
+
+#langListSelect
+{
+	height:30px;
+	margin-top:10px;
 }
 
 #postBtn
@@ -328,7 +344,7 @@ li
 	font-family:Verdana, Geneva, sans-serif;
 	font-weight:bold;
 	color:#FFF;
-	margin-left:15px;
+	/*margin-left:15px;*/
 }
 
 #postBtn:hover
@@ -543,6 +559,14 @@ li
 /***************************************		SIGNUP PAGE		***************************************/
 
 
+
+
+
+
+/***************************************		SIGNIN PAGE		***************************************/
+
+
+
 #signInBox
 {
 	width:100%;
@@ -618,15 +642,195 @@ li
 }
 
 
-
-
-
-
 /***************************************		SIGNIN PAGE		***************************************/
 
 
 
 
+/***************************************		UPLOAD CODE PAGE		***************************************/
+
+#uploadCode
+{
+	width:100%;
+	height:680px;
+	margin-top:10px;
+	border-radius:8px;
+	background-color:#60C;
+}
+
+#uploadHeading-list
+{
+	width:100%;
+	height:30px;
+	margin-top:15px;
+	display:inline-block;
+	background-color:#993;
+}
+
+#uploadText
+{
+	width:300px;
+	height:100%;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-left:30px;
+	line-height:30px;
+	background-color:#90F;
+}
+
+#uploadSpacer
+{
+	width:420px;
+	height:100%;
+	float:left;
+	background-color:#0C3;
+}
+
+#langList
+{
+	width:200px;
+	height:100%;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:small;
+	text-align:right;
+	line-height:30px;
+	background-color:#603;
+}
+
+#codeTextArea
+{
+	display:block;
+	margin-top:20px;
+	margin-left:30px;
+	padding-left:5px;
+	padding-top:5px;
+	border:1px solid #999;
+	border-radius:5px;
+}
+
+#uploadBtn-container
+{
+	width:100%;
+	height:30px;
+	background-color:#9C0;
+}
+
+#uploadFooterText
+{
+	width:200px;
+	height:100%;
+	float:left;
+	background-color:#999;
+}
+
+#uploadFooterSpacer
+{
+	width:640px;
+	height:100%;
+	float:left;
+	background-color:lime;	
+}
+
+#uploadBtn
+{
+	width:110px;
+	height:30px;
+	border:1px hidden;
+	border-radius:5px;
+	background-color:rgba(51, 51, 255, 0.6);
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#FFF;
+}
+
+#uploadBtn:hover
+{
+	background-color:#906;
+}
+
+#uploadDocText
+{
+	font-family:Arial, Helvetica, sans-serif;
+	padding-left:30px;
+}
+
+#chooseFile
+{
+	
+}
+
+#fileImgTbl
+{
+	margin-left:30px;
+	border-collapse:collapse;
+	padding:0px;
+}
+
+/***************************************		UPLOAD CODE PAGE		***************************************/
 
 
-/***************************************		SIGNIN PAGE		***************************************/
+
+
+
+
+
+/***************************************		FORGOT PASSWORD PAGE		***************************************/
+
+#forgotPassword-container
+{
+	width:100%-30px;
+	height:300px;
+	padding-top:30px;
+	padding-left:30px;
+	background-color:#9C6;
+}
+
+#forgotPassword-container h2
+{
+	font-family:Arial, Helvetica, sans-serif;
+	padding:0px;
+	margin:0px;
+}
+
+#forgotPassword-container p
+{
+	padding:0px;
+}
+
+#forgotPassSubmitBtn
+{
+	width:80px;
+	height:30px;
+	border:0px hidden;
+	border-radius:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#FFF;
+	background-color:rgba(51, 51, 255, 0.6);
+}
+
+#forgotPassSubmitBtn:hover
+{
+	background-color:#906;
+}
+
+#forgotPwdFrm fieldset
+{
+	width:450px;
+	height:200px;
+	padding-top:20px;
+	margin-left:30px;
+}
+
+/***************************************		FORGOT PASSWORD PAGE		***************************************/
+
+
+
+
+
+
+
+
+
+
