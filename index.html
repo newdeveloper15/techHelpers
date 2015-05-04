@@ -52,7 +52,7 @@
                         	<li><a href="#">Helpers</a></li>
                         	<li><a href="#">Tutorials</a></li>
                             <li><a href="#">Ideas</a></li>
-                            <li><a href="#">Upload</a></li>
+                            <li><a href="upload.html">Upload</a></li>
                         </ul>
                         
                     </div>
@@ -113,19 +113,25 @@
             
             	<form method="post" action="">
             
-                    <p>Title : <br /> <input type="text" id="title" name="title" value="Add title of your question here"  /></p>
-                    <p>
+                    <!--<p>Title : <br /> <input type="text" id="title" name="title" value="Add title of your question here"  /></p>-->
+                    Title : <br /> <input type="text" id="title" name="title" value="Add title of your question here"  /><br />
+                    <br />
+                    
+                    <!--<p>-->
                         Technology or Language : <br /> 
-                        <select>
+                        <select id="langListSelect">
                             <option>Please select technology</option>
                             <option>Java</option>
                             <option>C++</option>
                             <option>Ruby on Rails</option>
                             
                         </select>
-                    </p>
+                        <br /><br />
+
+                    <!--</p>-->
                     
-                    <p id="postValue">Post : </p>
+                    <!--<p id="postValue">Post : </p>-->
+					Post :
                     
                     <textarea name="comment" id="comment" rows="8" cols="125" >
                     </textarea>
@@ -154,7 +160,7 @@
                         <li><a href="#">Helpers</a></li>
                         <li><a href="#">Tutorials</a></li>
                         <li><a href="#">Ideas</a></li>
-                        <li><a href="#">Upload</a></li>
+                        <li><a href="upload.html">Upload</a></li>
                     </ul>
                 </div>    
             </div>
